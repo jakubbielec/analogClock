@@ -1,0 +1,75 @@
+.clock {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 50%;
+}
+
+.hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+}
+
+
+.hour-hand {
+    width: 35%;
+    height: 6px;
+    background-color: #000000;
+}
+
+
+.min-hand{
+    width: 45%;
+    height: 4px;
+    background-color: #000000;
+}
+
+
+.second-hand {
+    width: 48%;
+    height: 2px;
+    background-color: red;
+}
+
+.marking-one{
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.marking-two {
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 47%;
+    left: 97%;
+    transform: rotate(90deg);
+}
+
+.marking-three {
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+
+.marking-four {
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 47%;
+    left: 0;
+    transform: rotate(90deg);
+}
